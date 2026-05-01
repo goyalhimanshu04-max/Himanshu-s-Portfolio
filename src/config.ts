@@ -2,8 +2,8 @@ export const config = {
     developer: {
         name: "Himanshu",
         fullName: "Himanshu Goyal",
-        title: "AI & Full-Stack Developer",
-        description: "AI & Full-Stack Developer building intelligent systems and modern web applications. Passionate about machine learning, deep learning, and creating next-gen autonomous agents."
+        title: "AI & ML Engineer",
+        description: "AI & AI/ML Engineer building intelligent systems and modern web applications. Passionate about machine learning, deep learning, and creating next-gen autonomous agents."
     },
     social: {
         github: "goyalhimanshu04-max",
@@ -12,7 +12,7 @@ export const config = {
     },
     about: {
         title: "About Me",
-        description: "I am a self-taught AI & Full-Stack Developer from Pune. I build intelligent systems, chatbots, and modern web applications. My expertise includes Machine Learning, Deep Learning, NLP, and Full-Stack Web Development with React, Node.js, and Python. Currently building next-gen AI Agents and JARVIS-like Personal Assistants. I have a competitive programming mindset and a deep passion for automation. Code is poetry, AI is the canvas."
+        description: "I am an AI & Machine Learning Engineer from Pune, specializing in building scalable AI systems, real-time computer vision solutions, and data-driven applications. My expertise includes Machine Learning, Deep Learning, NLP, and Generative AI, along with strong proficiency in Python, TensorFlow, PyTorch, and cloud technologies. I have developed high-accuracy detection systems, AI-powered chatbots using LLMs and RAG, and optimized pipelines for real-time performance. I focus on delivering production-ready solutions, solving complex problems, and continuously improving through hands-on development and innovation."
     },
     experiences: [
         {
@@ -20,7 +20,7 @@ export const config = {
             company: "ThynkTech India",
             period: "2025 - Present",
             location: "Pune",
-            description: "Continuously exploring emerging technologies, researching advanced AI systems, and pushing the boundaries of what's possible in tech.",
+            description: "Developed AI-based proctoring systems, implemented face recognition, optimized real-time pipelines, and improved detection accuracy significantly.",
             responsibilities: [
                 "Researching cutting-edge AI and ML technologies",
                 "Experimenting with new frameworks and tools",
@@ -34,7 +34,7 @@ export const config = {
             company: "SunFibo Technologies",
             period: "2025",
             location: "Pune",
-            description: "Developing intelligent AI systems, chatbots, and machine learning solutions. Building next-gen conversational AI agents and JARVIS-like personal assistants.",
+            description: "Built theft detection system using YOLO, improved accuracy, reduced false positives, and optimized real-time tracking performance.",
             responsibilities: [
                 "Building AI-powered chatbots and conversational agents",
                 "Developing machine learning models with TensorFlow and PyTorch",
@@ -48,7 +48,7 @@ export const config = {
             company: "Mitu Skillogies",
             period: "2024",
             location: "Pune",
-            description: "Built complete web applications from frontend to backend. Developed responsive UIs, RESTful APIs, and database solutions for various clients and projects.",
+            description: "Performed data preprocessing, conducted EDA, built visualizations, improved data quality, and reduced analysis time using Python tools.",
             responsibilities: [
                 "Developing full-stack web applications using React and Node.js",
                 "Building RESTful APIs and integrating databases",
@@ -56,82 +56,32 @@ export const config = {
                 "Deploying and maintaining web applications"
             ],
             technologies: ["React", "Node.js", "MongoDB", "Express", "Next.js", "TypeScript"]
-        },
-        {
-            position: "Python Developer",
-            company: "Self-Taught & Projects",
-            period: "2023",
-            location: "Pune",
-            description: "Dove deep into Python programming, building automation scripts, bots, and mastering the fundamentals of software development and problem-solving.",
-            responsibilities: [
-                "Learning Python programming and core concepts",
-                "Building automation scripts and Discord bots",
-                "Exploring data structures and algorithms",
-                "Participating in competitive programming"
-            ],
-            technologies: ["Python", "Automation", "Scripting", "Discord.py", "Problem Solving"]
-        },
-        {
-            position: "Graphic Designer",
-            company: "Freelance",
-            period: "2022",
-            location: "Pune",
-            description: "Started my creative journey as a graphic designer, creating logos, banners, and visual content. This sparked my passion for technology and digital creation.",
-            responsibilities: [
-                "Designing logos and brand identity materials",
-                "Creating social media graphics and banners",
-                "Working with clients on creative projects",
-                "Learning design principles and visual aesthetics"
-            ],
-            technologies: ["Photoshop", "Illustrator", "Canva", "Figma", "Visual Design"]
-        },
-        {
-            position: "Microsoft Office",
-            company: "Begin Learning",
-            period: "2021",
-            location: "Pune",
-            description: "Started my journey into the digital world by learning Microsoft Office tools. This foundational step introduced me to computers and sparked my curiosity for technology.",
-            responsibilities: [
-                "Learning Microsoft Word, Excel, and PowerPoint",
-                "Creating documents and presentations",
-                "Understanding basic computer operations",
-                "Building foundational digital skills"
-            ],
-            technologies: ["MS Word", "MS Excel", "MS PowerPoint", "Computer Basics"]
-        }
+        }        
     ],
     projects: [
         {
             id: 1,
             title: "Advanced AI Resume Evaluator",
             category: "AI / LLM",
-            technologies: "Python, PyTorch, Transformers, FastAPI, React, MySQL",
-            image: "/images/drishti.png",
+            technologies: "Python, Streamlit, Google Gemini API, NLP, Pandas, Scikit-learn",
+            image: "/images/resume.png",
             description: "Built AI-driven ATS with Google Gemini API & Streamlit, achieving 95% accuracy and reducing screening time by 70%."
         },
         {
             id: 2,
-            title: "Job Description Generator",
-            category: "AI/LLM",
-            technologies: "Python, PyTorch, Transformers, FastAPI, React, MySQL",
-            image: "/images/votechain.png",
-            description: "Developed an AI-powered Streamlit app using Google Gemini API for automated job descriptions with 98% relevance."
+            title: "Cloud Motion Prediction using INSAT-3DR Satellite Imagery",
+            category: "Diffusion Model/Deep Learning",
+            technologies: "Python, HDF5, GeoTIFF, Data Preprocessing, Image Processing, Satellite Data Analysis",
+            image: "/images/cloud.png",
+            description: "Developed spatio-temporal prediction pipeline using INSAT-3DR multispectral satellite data, enabling accurate cloud motion estimation and forecasting."
         },
         {
             id: 3,
             title: "Conversational AI Chatbot Suite",
             category: "Langchain/HuggingFace",
-            technologies: "PyTorch, Transformers, Python, ML, React",
-            image: "/images/eie.png",
+            technologies: "Python, LangChain, HuggingFace Transformers, OpenAI API, Vector Databases, FastAPI",
+            image: "/images/chatbot.png",
             description: "Built a multi-feature chatbot using LangChain for document Q&A, summarization, SQL queries, math solving, and code assistance."
-        },
-        {
-            id: 4,
-            title: "Bangalore House Price Prediction",
-            category: "Data Science",
-            technologies: "AI/ML",
-            image: "/images/gamekroy.png",
-            description: "A full-featured e-commerce platform for gaming products. Includes user authentication, product catalog, shopping cart, secure payments, order tracking, and admin dashboard.Developed an end-to-end ML web application for Bangalore real estate price prediction using Flask, achieving 85% R² score and improving accuracy by 30%."
         }
         
     ],
@@ -139,9 +89,6 @@ export const config = {
         email: "himanshubgoyal24@gmail.com",
         github: "https://github.com/goyalhimanshu04-max",
         linkedin: "https://www.linkedin.com/in/himanshu-goyal-98b438285/",
-        twitter: "https://x.com/himanshu_goyal",
-        facebook: "https://www.facebook.com/himanshu.goyal",
-        instagram: "https://www.instagram.com/himanshu.goyal"
     },
     skills: {
         develop: {
